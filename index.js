@@ -7,7 +7,7 @@ const Joi = require('joi');
 
 const saltRounds = 12;
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 const expireTime = 1 * 60 * 60 * 1000; // 1 hour in milliseconds
 
