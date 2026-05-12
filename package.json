@@ -1,5 +1,5 @@
 {
-  "name": "assignment1-seonhyun_haileykim",
+  "name": "assignment2-seonhyun_haileykim",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
     "bcrypt": "^6.0.0",
     "connect-mongo": "^6.0.0",
     "dotenv": "^17.4.2",
+    "ejs": "^5.0.2",
     "express": "^5.2.1",
     "express-session": "^1.19.0",
     "joi": "^18.2.1",

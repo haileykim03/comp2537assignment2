@@ -1,0 +1,13 @@
+<%- include("templates/header") %>
+
+<% if (!authenticated) { %>
+    <h1>Welcome to Hailey's Cats!</h1>
+    <a href="/signup" class="btn btn-primary">Sign up</a>
+    <a href="/login" class="btn btn-secondary">Log in</a>
+<% } else { %>
+    <h1>Hello, <%= name %>!</h1>
+    <a href="/members" class="btn btn-primary">Go to Members Area</a>
+    <a href="/logout" class="btn btn-secondary">Logout</a>
+<% } %>
+
+<%- include("templates/footer") %>
